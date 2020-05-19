@@ -1,6 +1,6 @@
 def find_max_value(array)
-  var count
-  for i in array do 
+  count 0
+  while count < array.length do 
     if array[i] > i
       count = array[i]
     end
